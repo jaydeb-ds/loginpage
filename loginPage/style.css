@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(green,black);
+  
+    
+}
+#full-body {
+    height: 450px;
+    width: 350px;
+    background-color: rgba(22, 21, 21, 0.921);
+    border: 2px solid rgba(14, 173, 8, 0.703);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 40px rgb(28, 17, 131);
+
+}
+#spotify {
+    color: green;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    box-shadow: 0 0 20px rgb(33, 219, 13);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#welcome {
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+}
+input {
+    background-color:  rgba(22, 21, 21, 0.921);
+    border: 1px solid white;
+    height: 30px;
+    text-align: left;
+    width: 200px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 187, 255);
+    text-align: center;
+}
+#Login {
+    text-align: center;
+    background-color: green;
+    box-shadow: none;
+    margin-top: 30px;
+    box-shadow: 0 0 10px green;
+ 
+}
+#Forgot {
+    text-align: center;
+}
+#forgot {
+    text-decoration: none;
+    text-shadow: 0 0 10px red;
+}
